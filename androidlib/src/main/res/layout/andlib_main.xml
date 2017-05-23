@@ -4,10 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#212121"
     tools:context="com.samiapps.kv.androidlib.MainActivity">
-    <TextView
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/disp_joke"/>
+        android:layout_margin="20dp"
+        android:minHeight="200dp"
+
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="16dp"
+
+            android:id="@+id/disp_joke"/>
+
+    </android.support.v7.widget.CardView>
+
+
 
 </LinearLayout>
